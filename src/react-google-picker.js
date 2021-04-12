@@ -152,7 +152,7 @@ export default class GoogleChooser extends React.Component {
 
   render() {
     return (
-      <div onClick={this.onChoose}>
+      <div onClick={this.onChoose} style={{width: '100%'}}>
         {
           this.props.children ?
             this.props.children :
